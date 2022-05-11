@@ -34,3 +34,6 @@ phi = 1/(1+np.exp(-z))
 plt.xlabel('z')
 plt.ylabel('phi')
 plt.show()
+
+char_arr = np.array(['A','B','C','D','E'])
+print(char_arr[[True, False, True, False, False]])
